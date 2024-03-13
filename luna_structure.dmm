@@ -1,0 +1,1679 @@
+{
+	"tables": {
+		"024adf53-7dbe-4779-b103-ac9ff2eafd91": {
+			"id": "024adf53-7dbe-4779-b103-ac9ff2eafd91",
+			"visible": true,
+			"name": "savininkas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "ba79f3ee-1727-4ca0-bc64-273006c8cf04",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "83a22077-7f24-4854-a39e-dc2e167b3f28",
+					"name": "sav_vardas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "2a3e3fc1-1e0c-4a71-be8b-6334314f9a0e",
+					"name": "sav_tel_numeris",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "f16e0f0a-fc57-4cc4-8c1b-508bfd7833ec",
+					"name": "sav_el_pastas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "d0b0361b-51c3-4148-ba44-4183c0c99691",
+					"name": "sav_saskaita",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"5656dc33-1336-4732-b8a5-2effd0d6e33c"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "0bec6ce1-aef8-46ac-9749-5cf941fb083f",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "ab4632d2-e00b-43e5-98b9-4e40e435832b",
+							"colid": "ba79f3ee-1727-4ca0-bc64-273006c8cf04"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"9fa4a85b-8aa6-4b60-972f-19a98fa61c67": {
+			"id": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"visible": true,
+			"name": "busena",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "dddc67d3-6fac-48ff-a2b4-aaa408149fe7",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "40e0c2bd-7f18-472a-854d-8c8a8f393356",
+					"name": "nekilnojamas_turtas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "07d2ecd9-878a-46e0-8736-6ebb6d2eb2b4",
+					"name": "nt_agentura_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "97965115-0fe3-4356-b3f8-0c6e389be7cc",
+					"name": "pardavimo_tipas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "874249ae-01fe-4921-9c61-baf6b12de2c7",
+					"name": "busena_tipas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "3a3728c2-f613-42bc-a40f-cdba88004afe",
+					"name": "data_pridejimo",
+					"datatype": "DATE",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "d5b98a1e-b89b-4945-a9bb-6e9281f7b3d5",
+					"name": "kaina_eur",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"3bb540c6-7a44-4b2c-a492-05885f493f00",
+				"4a447739-6b2a-45d7-b85d-900593cf1389",
+				"d011366a-6ef6-4d85-b04d-d09f021086e7",
+				"afecb7ae-ebaa-4543-8a47-cf037b90de81",
+				"e1bae9e2-8686-4e4e-92a6-2405abff2302"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "8a455577-3329-4b50-b1b3-507eef24834c",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "8ad8dcd4-443d-4cd6-a727-438b9e8dc135",
+							"colid": "dddc67d3-6fac-48ff-a2b4-aaa408149fe7"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"b779b230-830e-4727-8a5f-6ebf6f50893e": {
+			"id": "b779b230-830e-4727-8a5f-6ebf6f50893e",
+			"visible": true,
+			"name": "nt_agentura",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "6a0a98cc-9a1d-42a4-942f-abe6aaa0bbc5",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "37a72eb5-37d1-46da-825d-16ff2f1b4528",
+					"name": "pavadinimas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "9d863e21-b813-4ee7-af8b-cde5a51e8886",
+					"name": "imones_kodas",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "f1552b2b-6b86-407c-984b-f9630e5b583a",
+					"name": "tel_numeris",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "f32b0309-2d83-4619-8686-11ee0aab3238",
+					"name": "el_pastas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"3bb540c6-7a44-4b2c-a492-05885f493f00",
+				"362fda29-747e-413a-9847-7b1eeeecc894"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "85d01097-6b73-40cb-8d5b-f3e370e9dbe8",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "85fe4a3b-38f4-47f3-87f9-0ddc8f7ab8bd",
+							"colid": "6a0a98cc-9a1d-42a4-942f-abe6aaa0bbc5"
+						}
+					]
+				},
+				{
+					"id": "7b758dd2-fd62-416c-bb20-161d544686a9",
+					"isPk": false,
+					"name": "nt_agentura_ak_1",
+					"cols": []
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"3043dd53-c73d-4089-b397-0328035c869b": {
+			"id": "3043dd53-c73d-4089-b397-0328035c869b",
+			"visible": true,
+			"name": "nekilnojamas_turtas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "6767b8c3-12df-4903-bb36-143b1763ff3f",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "a2563548-9c69-427c-8bc8-4bfe6a1d1cbd",
+					"name": "savininkas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "bfefe18e-b2b6-421c-9fd3-c53fc78d4024",
+					"name": "nt_tipas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "8d5aa880-d222-43ce-836d-21218e4da1f4",
+					"name": "adresas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "6da91ff1-3d25-485d-8016-9811dd459d9a",
+					"name": "plotas_kvm",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "6cfec862-72df-496d-b69a-0a71f6803a5c",
+					"name": "reg_numeris",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"5656dc33-1336-4732-b8a5-2effd0d6e33c",
+				"4a447739-6b2a-45d7-b85d-900593cf1389",
+				"26136b77-3161-4626-8bb3-808bd7dfbec2"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "3f93b400-53fd-42a8-a17a-af340e2f289d",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "84a35c71-60a7-4def-b85c-910f9514c882",
+							"colid": "6767b8c3-12df-4903-bb36-143b1763ff3f"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"998acbd8-7d38-4750-b7b8-0e029f515a5b": {
+			"id": "998acbd8-7d38-4750-b7b8-0e029f515a5b",
+			"visible": true,
+			"name": "agenturos_mokestis",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "f3a71617-a75e-472b-9f93-1a7c50d63549",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "39f8e504-d420-4ef9-8bab-459f280f70fc",
+					"name": "nt_agentura_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "0e666a46-a067-4cf5-8a14-88bcafcaf913",
+					"name": "pardavimo_tipas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "c5add545-5b89-4808-8d63-0ece7fc41d44",
+					"name": "procentas",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "9d96f067-d5f5-40e3-a0b7-c86bfbb471fa",
+					"name": "min_mokestis",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "85b85cf3-ba0f-4f78-8e95-fbba9519c9ec",
+					"name": "max_mokestis",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"362fda29-747e-413a-9847-7b1eeeecc894",
+				"eccbdbf7-7471-4102-817a-5c3e9a8497f0"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "93cfa449-0b3c-4e7a-9fef-7a82c1bdec77",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "3105355c-182c-48fd-913c-ce314bc53e38",
+							"colid": "f3a71617-a75e-472b-9f93-1a7c50d63549"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"b0427276-7076-4b1d-87b3-2cdf86fe8cad": {
+			"id": "b0427276-7076-4b1d-87b3-2cdf86fe8cad",
+			"visible": true,
+			"name": "pirkejas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "d25a0b67-e1d4-4ea6-ad27-00eed183709c",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": false
+				},
+				{
+					"id": "6c871ebd-cf73-4905-9e69-be9e5b07a629",
+					"name": "pir_vardas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": false
+				},
+				{
+					"id": "5ba061b4-7ec5-48fb-8695-c82f0c27b208",
+					"name": "pir_tel_numeris",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": false
+				},
+				{
+					"id": "55a90312-2ce7-4323-9ba2-5d0f7381e81d",
+					"name": "pir_el_pastas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": false
+				},
+				{
+					"id": "f3efe7f0-1523-48ff-a559-6356fd8960ba",
+					"name": "pir_saskaita",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"659f0653-bfc9-43d6-a8b5-7c0011e698c7"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "65e9ebbf-4875-47a4-8699-4781625f29b4",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "2c02191e-18cf-40d3-9bb5-90d96239e970",
+							"colid": "d25a0b67-e1d4-4ea6-ad27-00eed183709c"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"2cd690df-5ae1-474a-9ff7-7619cbd8dcbc": {
+			"id": "2cd690df-5ae1-474a-9ff7-7619cbd8dcbc",
+			"visible": true,
+			"name": "pardavimo_tipas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "73a042a8-ca87-4f44-9d25-2d5ce2981acd",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "6f874c90-e83a-4399-9bbf-a7070e4e8a55",
+					"name": "tipas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"eccbdbf7-7471-4102-817a-5c3e9a8497f0",
+				"d011366a-6ef6-4d85-b04d-d09f021086e7"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "59abaf96-1bec-4141-ac3a-892ba1064a72",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "9839b15e-c7a5-4810-a51c-a223d86144f1",
+							"colid": "73a042a8-ca87-4f44-9d25-2d5ce2981acd"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"0324fe4c-fc04-457a-8722-27537d8671a3": {
+			"id": "0324fe4c-fc04-457a-8722-27537d8671a3",
+			"visible": true,
+			"name": "pavedimas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "b24d93a6-37c1-499c-8771-8767feb1c68e",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "deba3638-30ac-4c92-ae58-9dbe99209f5e",
+					"name": "busena_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "3cee5106-9138-47aa-a9d1-9013a846756f",
+					"name": "pirkejas_id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": "",
+					"fk": true
+				},
+				{
+					"id": "841247d8-a135-4f9b-b355-48288229f691",
+					"name": "data_pardavimo",
+					"datatype": "DATE",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "9a7d8785-6b02-4d30-a34d-eb89aa791bec",
+					"name": "agenturos_mokestis_eur",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "d8c99a18-3a21-42f4-a845-57c1c39f0ad4",
+					"name": "savininko_gavimas",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": false,
+					"nn": false,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"659f0653-bfc9-43d6-a8b5-7c0011e698c7",
+				"afecb7ae-ebaa-4543-8a47-cf037b90de81"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "87ce1b26-d21d-46ee-b70b-a9c9bcbffb30",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "44b95057-7a67-4bac-ad72-52094efbe691",
+							"colid": "b24d93a6-37c1-499c-8771-8767feb1c68e"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"bcaf66a6-3ffb-48bc-b479-114e6e9abb14": {
+			"id": "bcaf66a6-3ffb-48bc-b479-114e6e9abb14",
+			"visible": true,
+			"name": "nt_tipas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "b3524e39-003d-4ec2-b21a-6f53ab841db6",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "c358949e-edf1-4711-987a-9b0ccfb656ba",
+					"name": "tipas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"26136b77-3161-4626-8bb3-808bd7dfbec2"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "2645be09-31f3-4cfa-8332-4471bc2d654a",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "8c8d543d-3fa4-475f-a2f7-fd77ff0e939b",
+							"colid": "b3524e39-003d-4ec2-b21a-6f53ab841db6"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		},
+		"3ea1ccd1-7adb-4130-9941-83e280579f1d": {
+			"id": "3ea1ccd1-7adb-4130-9941-83e280579f1d",
+			"visible": true,
+			"name": "busena_tipas",
+			"desc": "",
+			"estimatedSize": "",
+			"cols": [
+				{
+					"id": "3053448a-b1a0-4c6f-ac01-7e8a189c61b9",
+					"name": "id",
+					"datatype": "INTEGER",
+					"param": "",
+					"pk": true,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"collation": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				},
+				{
+					"id": "a5a2a29b-955b-4128-8f1e-1a138c0ab351",
+					"name": "tipas",
+					"datatype": "TEXT",
+					"param": "",
+					"pk": false,
+					"nn": true,
+					"comment": "",
+					"defaultvalue": "",
+					"data": "",
+					"after": "",
+					"sqlite": {
+						"autoincrement": false
+					},
+					"estimatedSize": ""
+				}
+			],
+			"relations": [
+				"e1bae9e2-8686-4e4e-92a6-2405abff2302"
+			],
+			"lines": [],
+			"keys": [
+				{
+					"id": "f84867b7-ea9f-4aba-a8e7-bd3ebe1e2e93",
+					"name": "Primary key",
+					"isPk": true,
+					"cols": [
+						{
+							"id": "5d1ed7b2-6042-49b0-a767-be68499a62cc",
+							"colid": "3053448a-b1a0-4c6f-ac01-7e8a189c61b9"
+						}
+					]
+				}
+			],
+			"indexes": [],
+			"embeddable": false,
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"beforeScript": "",
+			"afterScript": "",
+			"sqlite": {
+				"withoutrowid": false,
+				"strict": false
+			}
+		}
+	},
+	"relations": {
+		"5656dc33-1336-4732-b8a5-2effd0d6e33c": {
+			"id": "5656dc33-1336-4732-b8a5-2effd0d6e33c",
+			"visible": true,
+			"name": "savininkas_nekilnojamas_turtas",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "0bec6ce1-aef8-46ac-9749-5cf941fb083f",
+			"parent": "024adf53-7dbe-4779-b103-ac9ff2eafd91",
+			"child": "3043dd53-c73d-4089-b397-0328035c869b",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "dc943f2a-bae5-48fb-9fab-fd0b4139449e",
+					"parentcol": "ba79f3ee-1727-4ca0-bc64-273006c8cf04",
+					"childcol": "a2563548-9c69-427c-8bc8-4bfe6a1d1cbd"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"3bb540c6-7a44-4b2c-a492-05885f493f00": {
+			"id": "3bb540c6-7a44-4b2c-a492-05885f493f00",
+			"visible": true,
+			"name": "nt_agentura_busena",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "85d01097-6b73-40cb-8d5b-f3e370e9dbe8",
+			"parent": "b779b230-830e-4727-8a5f-6ebf6f50893e",
+			"child": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "7d57ad9f-09b7-491c-aa10-fbe6c2dd521e",
+					"parentcol": "6a0a98cc-9a1d-42a4-942f-abe6aaa0bbc5",
+					"childcol": "07d2ecd9-878a-46e0-8736-6ebb6d2eb2b4"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"4a447739-6b2a-45d7-b85d-900593cf1389": {
+			"id": "4a447739-6b2a-45d7-b85d-900593cf1389",
+			"visible": true,
+			"name": "nekilnojamas_turtas_busena",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "3f93b400-53fd-42a8-a17a-af340e2f289d",
+			"parent": "3043dd53-c73d-4089-b397-0328035c869b",
+			"child": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "934b6d64-5bd3-45ff-9b88-60a6fe4568fb",
+					"parentcol": "6767b8c3-12df-4903-bb36-143b1763ff3f",
+					"childcol": "40e0c2bd-7f18-472a-854d-8c8a8f393356"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"362fda29-747e-413a-9847-7b1eeeecc894": {
+			"id": "362fda29-747e-413a-9847-7b1eeeecc894",
+			"visible": true,
+			"name": "nt_agentura_agenturos_mokestis",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "85d01097-6b73-40cb-8d5b-f3e370e9dbe8",
+			"parent": "b779b230-830e-4727-8a5f-6ebf6f50893e",
+			"child": "998acbd8-7d38-4750-b7b8-0e029f515a5b",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "one",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "7c4ce7e9-f480-4cab-b0d0-7ae438ca8184",
+					"parentcol": "6a0a98cc-9a1d-42a4-942f-abe6aaa0bbc5",
+					"childcol": "39f8e504-d420-4ef9-8bab-459f280f70fc"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"659f0653-bfc9-43d6-a8b5-7c0011e698c7": {
+			"id": "659f0653-bfc9-43d6-a8b5-7c0011e698c7",
+			"visible": true,
+			"name": "pirkejas_pavedimas",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "65e9ebbf-4875-47a4-8699-4781625f29b4",
+			"parent": "b0427276-7076-4b1d-87b3-2cdf86fe8cad",
+			"child": "0324fe4c-fc04-457a-8722-27537d8671a3",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "b1b888d9-53a0-438c-9c14-8e4fc3d1b390",
+					"parentcol": "d25a0b67-e1d4-4ea6-ad27-00eed183709c",
+					"childcol": "3cee5106-9138-47aa-a9d1-9013a846756f"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"eccbdbf7-7471-4102-817a-5c3e9a8497f0": {
+			"id": "eccbdbf7-7471-4102-817a-5c3e9a8497f0",
+			"visible": true,
+			"name": "mokscio_tipas_agenturos_mokestis",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "59abaf96-1bec-4141-ac3a-892ba1064a72",
+			"parent": "2cd690df-5ae1-474a-9ff7-7619cbd8dcbc",
+			"child": "998acbd8-7d38-4750-b7b8-0e029f515a5b",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "1b79c387-488e-4ae4-9690-88d8465f535a",
+					"parentcol": "73a042a8-ca87-4f44-9d25-2d5ce2981acd",
+					"childcol": "0e666a46-a067-4cf5-8a14-88bcafcaf913"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"d011366a-6ef6-4d85-b04d-d09f021086e7": {
+			"id": "d011366a-6ef6-4d85-b04d-d09f021086e7",
+			"visible": true,
+			"name": "pardavimo_tipas_busena",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "59abaf96-1bec-4141-ac3a-892ba1064a72",
+			"parent": "2cd690df-5ae1-474a-9ff7-7619cbd8dcbc",
+			"child": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "9b74708c-ca50-4de0-8c8e-852043727b1a",
+					"parentcol": "73a042a8-ca87-4f44-9d25-2d5ce2981acd",
+					"childcol": "97965115-0fe3-4356-b3f8-0c6e389be7cc"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"26136b77-3161-4626-8bb3-808bd7dfbec2": {
+			"id": "26136b77-3161-4626-8bb3-808bd7dfbec2",
+			"visible": true,
+			"name": "nt_tipas_nekilnojamas_turtas",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "2645be09-31f3-4cfa-8332-4471bc2d654a",
+			"parent": "bcaf66a6-3ffb-48bc-b479-114e6e9abb14",
+			"child": "3043dd53-c73d-4089-b397-0328035c869b",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "a790a11c-107c-4974-af9a-41a1f8a60f94",
+					"parentcol": "b3524e39-003d-4ec2-b21a-6f53ab841db6",
+					"childcol": "bfefe18e-b2b6-421c-9fd3-c53fc78d4024"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"afecb7ae-ebaa-4543-8a47-cf037b90de81": {
+			"id": "afecb7ae-ebaa-4543-8a47-cf037b90de81",
+			"visible": true,
+			"name": "busena_pavedimas",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "8a455577-3329-4b50-b1b3-507eef24834c",
+			"parent": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"child": "0324fe4c-fc04-457a-8722-27537d8671a3",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "1d2aa80b-c368-4350-9d34-119d6ec22382",
+					"parentcol": "dddc67d3-6fac-48ff-a2b4-aaa408149fe7",
+					"childcol": "deba3638-30ac-4c92-ae58-9dbe99209f5e"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		},
+		"e1bae9e2-8686-4e4e-92a6-2405abff2302": {
+			"id": "e1bae9e2-8686-4e4e-92a6-2405abff2302",
+			"visible": true,
+			"name": "busena_tipas_busena",
+			"desc": "",
+			"type": "identifying",
+			"parent_key": "f84867b7-ea9f-4aba-a8e7-bd3ebe1e2e93",
+			"parent": "3ea1ccd1-7adb-4130-9941-83e280579f1d",
+			"child": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+			"c_mp": "true",
+			"c_mch": "true",
+			"c_p": "one",
+			"c_ch": "many",
+			"c_cp": "",
+			"c_cch": "",
+			"cols": [
+				{
+					"id": "a1a57488-8230-4545-8519-a9eaf90dc871",
+					"parentcol": "3053448a-b1a0-4c6f-ac01-7e8a189c61b9",
+					"childcol": "874249ae-01fe-4921-9c61-baf6b12de2c7"
+				}
+			],
+			"generate": true,
+			"generateCustomCode": true,
+			"customCode": "",
+			"relationColor": "transparent"
+		}
+	},
+	"notes": {},
+	"lines": {},
+	"model": {
+		"name": "NT uzduotis",
+		"id": "5dc4ec72-9db1-4a93-836b-06431b0bcfa5",
+		"activeDiagram": "8f1b5646-ee15-4b92-926a-91c80d81e21b",
+		"desc": "",
+		"path": "",
+		"type": "SQLITE",
+		"version": 1,
+		"parentTableInFkCols": true,
+		"caseConvention": "under",
+		"replaceSpace": "_",
+		"color": "transparent",
+		"sideSelections": true,
+		"isDirty": true,
+		"storedin": {
+			"major": 7,
+			"minor": 5,
+			"extra": 1
+		},
+		"laststoredin": {
+			"major": 7,
+			"minor": 5,
+			"extra": 1
+		},
+		"writeFileParam": false,
+		"authorName": "",
+		"companyDetails": "",
+		"companyUrl": "",
+		"def_coltopk": true,
+		"sqlSettings": {
+			"wrapLines": true,
+			"wrapOffset": 80,
+			"indent": true,
+			"indentationString": "spaces",
+			"indentationSize": 2,
+			"limitItemsOnLine": true,
+			"maxListItemsOnLine": 3,
+			"statementDelimiter": ";",
+			"routineDelimiter": ";",
+			"keywordCase": "upper",
+			"identiferCase": "original"
+		},
+		"lastSaved": 1703599806886
+	},
+	"otherObjects": {},
+	"diagrams": {
+		"8f1b5646-ee15-4b92-926a-91c80d81e21b": {
+			"name": "Main Diagram",
+			"description": "",
+			"id": "8f1b5646-ee15-4b92-926a-91c80d81e21b",
+			"keysgraphics": true,
+			"linegraphics": "detailed",
+			"zoom": 1,
+			"background": "transparent",
+			"lineColor": "transparent",
+			"isOpen": true,
+			"main": true,
+			"diagramItems": {
+				"024adf53-7dbe-4779-b103-ac9ff2eafd91": {
+					"referencedItemId": "024adf53-7dbe-4779-b103-ac9ff2eafd91",
+					"x": 45,
+					"y": 171,
+					"gHeight": 117,
+					"gWidth": 235,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"9fa4a85b-8aa6-4b60-972f-19a98fa61c67": {
+					"referencedItemId": "9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+					"x": 385,
+					"y": 295,
+					"gHeight": 153,
+					"gWidth": 275,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"b779b230-830e-4727-8a5f-6ebf6f50893e": {
+					"referencedItemId": "b779b230-830e-4727-8a5f-6ebf6f50893e",
+					"x": 821,
+					"y": 314,
+					"gHeight": 117,
+					"gWidth": 226,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"3043dd53-c73d-4089-b397-0328035c869b": {
+					"referencedItemId": "3043dd53-c73d-4089-b397-0328035c869b",
+					"x": 382,
+					"y": 152,
+					"gHeight": 135,
+					"gWidth": 220,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"998acbd8-7d38-4750-b7b8-0e029f515a5b": {
+					"referencedItemId": "998acbd8-7d38-4750-b7b8-0e029f515a5b",
+					"x": 822,
+					"y": 446,
+					"gHeight": 135,
+					"gWidth": 255,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"b0427276-7076-4b1d-87b3-2cdf86fe8cad": {
+					"referencedItemId": "b0427276-7076-4b1d-87b3-2cdf86fe8cad",
+					"x": 45,
+					"y": 347,
+					"gHeight": 117,
+					"gWidth": 232,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"2cd690df-5ae1-474a-9ff7-7619cbd8dcbc": {
+					"referencedItemId": "2cd690df-5ae1-474a-9ff7-7619cbd8dcbc",
+					"x": 819,
+					"y": 598,
+					"gHeight": 63,
+					"gWidth": 156,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"0324fe4c-fc04-457a-8722-27537d8671a3": {
+					"referencedItemId": "0324fe4c-fc04-457a-8722-27537d8671a3",
+					"x": 381,
+					"y": 489,
+					"gHeight": 135,
+					"gWidth": 283,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"bcaf66a6-3ffb-48bc-b479-114e6e9abb14": {
+					"referencedItemId": "bcaf66a6-3ffb-48bc-b479-114e6e9abb14",
+					"x": 654,
+					"y": 46,
+					"gHeight": 63,
+					"gWidth": 156,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				},
+				"3ea1ccd1-7adb-4130-9941-83e280579f1d": {
+					"referencedItemId": "3ea1ccd1-7adb-4130-9941-83e280579f1d",
+					"x": 836,
+					"y": 46,
+					"gHeight": 63,
+					"gWidth": 156,
+					"color": "#ffffff",
+					"background": "#03a9f4",
+					"resized": false,
+					"autoExpand": true,
+					"backgroundOpacity": "10",
+					"collapsed": false
+				}
+			},
+			"scroll": {
+				"x": 0,
+				"y": 0
+			},
+			"type": "erd",
+			"showHorizontal": true,
+			"showDescriptions": true,
+			"showIndicators": true,
+			"showProgress": true,
+			"lineWidth": "2",
+			"boxSize": "0",
+			"boxSpacing": "2",
+			"boxAlign": "center",
+			"showIndicatorCaptions": true,
+			"showEstimatedSize": false,
+			"showSchemaContainer": true,
+			"showEmbeddedInParents": true,
+			"showCardinalityCaptions": true,
+			"showColumns": true,
+			"showColumnDataTypes": true,
+			"showSampleData": false,
+			"showTableIndexes": true,
+			"showTableDescriptions": false,
+			"showRelations": true,
+			"backgroundImage": "na",
+			"descriptionsColor": "transparent",
+			"embeddedSpacing": "2",
+			"showMainIcon": true,
+			"showLabels": true
+		}
+	},
+	"diagramsOrder": [],
+	"order": [
+		"024adf53-7dbe-4779-b103-ac9ff2eafd91",
+		"9fa4a85b-8aa6-4b60-972f-19a98fa61c67",
+		"b779b230-830e-4727-8a5f-6ebf6f50893e",
+		"3043dd53-c73d-4089-b397-0328035c869b",
+		"998acbd8-7d38-4750-b7b8-0e029f515a5b",
+		"b0427276-7076-4b1d-87b3-2cdf86fe8cad",
+		"2cd690df-5ae1-474a-9ff7-7619cbd8dcbc",
+		"0324fe4c-fc04-457a-8722-27537d8671a3",
+		"bcaf66a6-3ffb-48bc-b479-114e6e9abb14",
+		"3ea1ccd1-7adb-4130-9941-83e280579f1d",
+		"5656dc33-1336-4732-b8a5-2effd0d6e33c",
+		"3bb540c6-7a44-4b2c-a492-05885f493f00",
+		"4a447739-6b2a-45d7-b85d-900593cf1389",
+		"362fda29-747e-413a-9847-7b1eeeecc894",
+		"659f0653-bfc9-43d6-a8b5-7c0011e698c7",
+		"eccbdbf7-7471-4102-817a-5c3e9a8497f0",
+		"d011366a-6ef6-4d85-b04d-d09f021086e7",
+		"26136b77-3161-4626-8bb3-808bd7dfbec2",
+		"afecb7ae-ebaa-4543-8a47-cf037b90de81",
+		"e1bae9e2-8686-4e4e-92a6-2405abff2302"
+	],
+	"collapsedTreeItems": [],
+	"reverseStats": {}
+}
